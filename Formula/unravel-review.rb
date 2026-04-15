@@ -21,8 +21,8 @@ class UnravelReview < Formula
 
   desc "AI-powered CLI that decomposes PR diffs into causal threads for human reviewers"
   homepage "https://github.com/roo-oliv/unravel"
-  url "https://files.pythonhosted.org/packages/32/20/e313cb5c321c60512a806e8deb72f08a33d7194208162e72a2e045f68412/unravel_review-0.2.1.tar.gz"
-  sha256 "9b2f008b5959b9f223c2eee7b9254fb13d3af5cd94b5c56461a13c1fe12b3bd2"
+  url "https://files.pythonhosted.org/packages/03/f5/4b22bd0595f9e4645b5a8557ffab3ef5c54c513303eface68a4e89e8c43b/unravel_review-0.2.2.tar.gz"
+  sha256 "56eb98d8446995bc964a639ea43c7e9a29db84ce406aff56c956f9413b264444"
   license "AGPL-3.0-or-later"
   head "https://github.com/roo-oliv/unravel.git", branch: "main"
 
