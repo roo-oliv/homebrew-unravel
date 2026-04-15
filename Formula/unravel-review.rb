@@ -21,8 +21,8 @@ class UnravelReview < Formula
 
   desc "AI-powered CLI that decomposes PR diffs into causal threads for human reviewers"
   homepage "https://github.com/roo-oliv/unravel"
-  url "https://files.pythonhosted.org/packages/7f/39/733b8aa94e5cca4a86c1151fe9a50403bfe7ccb7db4d7a99f67b5acf6b86/unravel_review-0.2.0.tar.gz"
-  sha256 "7845980f3cb7c6c37b62c68aa4ce53889f13b38af0fb110ce201a561f774c480"
+  url "https://files.pythonhosted.org/packages/32/20/e313cb5c321c60512a806e8deb72f08a33d7194208162e72a2e045f68412/unravel_review-0.2.1.tar.gz"
+  sha256 "9b2f008b5959b9f223c2eee7b9254fb13d3af5cd94b5c56461a13c1fe12b3bd2"
   license "AGPL-3.0-or-later"
   head "https://github.com/roo-oliv/unravel.git", branch: "main"
 
@@ -128,7 +128,7 @@ class UnravelReview < Formula
     sha256 "d408153772d9f298098fb5d620f045bdf0f017af0d5cb6e309ef8c205540caa4"
   end
 
-  resource "pygments" do
+  resource "Pygments" do
     url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
     sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
   end
