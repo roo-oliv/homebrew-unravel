@@ -21,8 +21,8 @@ class UnravelReview < Formula
 
   desc "AI-powered CLI that decomposes PR diffs into causal threads for human reviewers"
   homepage "https://github.com/roo-oliv/unravel"
-  url "https://files.pythonhosted.org/packages/03/f5/4b22bd0595f9e4645b5a8557ffab3ef5c54c513303eface68a4e89e8c43b/unravel_review-0.2.2.tar.gz"
-  sha256 "56eb98d8446995bc964a639ea43c7e9a29db84ce406aff56c956f9413b264444"
+  url "https://files.pythonhosted.org/packages/99/1d/79e4a9fee36f385c08cc1cf7e8af0450a363be8e60b1076919c5e43c1ff6/unravel_review-0.3.0.tar.gz"
+  sha256 "4a36fea0aa64d770726a0046ff52942b17f59b4d716774c287cfda7072fb6403"
   license "AGPL-3.0-or-later"
   head "https://github.com/roo-oliv/unravel.git", branch: "main"
 
@@ -39,8 +39,8 @@ class UnravelReview < Formula
   end
 
   resource "anthropic" do
-    url "https://files.pythonhosted.org/packages/f0/cb/b1896da12f12680c39c90af1b9c9fdf75354899317e2a7900ab37fe3a640/anthropic-0.95.0.tar.gz"
-    sha256 "e4d815351489e5627f39806f12561c52b574e69be10d12fcab723264f955c11d"
+    url "https://files.pythonhosted.org/packages/14/93/f66ea8bfe39f2e6bb9da8e27fa5457ad2520e8f7612dfc547b17fad55c4d/anthropic-0.97.0.tar.gz"
+    sha256 "021e79fd8e21e90ad94dc5ba2bbbd8b1599f424f5b1fab6c06204009cab764be"
   end
 
   resource "anyio" do
@@ -49,13 +49,13 @@ class UnravelReview < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/af/2d/7bf41579a8986e348fa033a31cdd0e4121114f6bce2457e8876010b092dd/certifi-2026.2.25.tar.gz"
-    sha256 "e887ab5cee78ea814d3472169153c2d12cd43b14bd03329a39a9c6e2e80bfba7"
+    url "https://files.pythonhosted.org/packages/25/ee/6caf7a40c36a1220410afe15a1cc64993a1f864871f698c0f93acb72842a/certifi-2026.4.22.tar.gz"
+    sha256 "8d455352a37b71bf76a79caa83a3d6c25afee4a385d632127b6afb3963f1c580"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/57/75/31212c6bf2503fdf920d87fee5d7a86a2e3bcf444984126f13d8e4016804/click-8.3.2.tar.gz"
-    sha256 "14162b8b3b3550a7d479eafa77dfd3c38d9dc8951f6f69c78913a8f9a7540fd5"
+    url "https://files.pythonhosted.org/packages/bb/63/f9e1ea081ce35720d8b92acde70daaedace594dc93b693c869e0d5910718/click-8.3.3.tar.gz"
+    sha256 "398329ad4837b2ff7cbe1dd166a4c0f8900c3ca3a218de04466f38f6497f18a2"
   end
 
   resource "distro" do
@@ -84,8 +84,8 @@ class UnravelReview < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz"
-    sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
+    url "https://files.pythonhosted.org/packages/ce/cc/762dfb036166873f0059f3b7de4565e1b5bc3d6f28a414c13da27e442f99/idna-3.13.tar.gz"
+    sha256 "585ea8fe5d69b9181ec1afba340451fba6ba764af97026f92a91d4eef164a242"
   end
 
   resource "jiter" do
@@ -119,13 +119,13 @@ class UnravelReview < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/f3/6b/1353beb3d1cd5cf61cdec5b6f87a9872399de3bc5cae0b7ce07ff4de2ab0/pydantic-2.13.1.tar.gz"
-    sha256 "a0f829b279ddd1e39291133fe2539d2aa46cc6b150c1706a270ff0879e3774d2"
+    url "https://files.pythonhosted.org/packages/d9/e4/40d09941a2cebcb20609b86a559817d5b9291c49dd6f8c87e5feffbe703a/pydantic-2.13.3.tar.gz"
+    sha256 "af09e9d1d09f4e7fe37145c1f577e1d61ceb9a41924bf0094a36506285d0a84d"
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/a1/93/f97a86a7eb28faa1d038af2fd5d6166418b4433659108a4c311b57128b2d/pydantic_core-2.46.1.tar.gz"
-    sha256 "d408153772d9f298098fb5d620f045bdf0f017af0d5cb6e309ef8c205540caa4"
+    url "https://files.pythonhosted.org/packages/2a/ef/f7abb56c49382a246fd2ce9c799691e3c3e7175ec74b14d99e798bcddb1a/pydantic_core-2.46.3.tar.gz"
+    sha256 "41c178f65b8c29807239d47e6050262eb6bf84eb695e41101e62e38df4a5bc2c"
   end
 
   resource "Pygments" do
@@ -149,13 +149,13 @@ class UnravelReview < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/cf/2f/d44f0f12b3ddb1f0b88f7775652e99c6b5a43fd733badf4ce064bdbfef4a/textual-8.2.3.tar.gz"
-    sha256 "beea7b86b03b03558a2224f0cc35252e60ef8b0c4353b117b2f40972902d976a"
+    url "https://files.pythonhosted.org/packages/19/89/bec5709fb759f9c784bbcb30b2e3497df3f901691d13c2b864dbf6694a17/textual-8.2.4.tar.gz"
+    sha256 "d4e2b2ddd7157191d00b228592b7c739ea080b7d792fd410f23ca75f05ea76c4"
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/f5/24/cb09efec5cc954f7f9b930bf8279447d24618bb6758d4f6adf2574c41780/typer-0.24.1.tar.gz"
-    sha256 "e39b4732d65fbdcde189ae76cf7cd48aeae72919dea1fdfc16593be016256b45"
+    url "https://files.pythonhosted.org/packages/83/b8/9ebb531b6c2d377af08ac6746a5df3425b21853a5d2260876919b58a2a4a/typer-0.24.2.tar.gz"
+    sha256 "ec070dcfca1408e85ee203c6365001e818c3b7fffe686fd07ff2d68095ca0480"
   end
 
   resource "typing-extensions" do
